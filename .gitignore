@@ -1,2 +1,46 @@
+# Environment variables
 .env
+.env.*
+
+# Dependency directories
 node_modules/
+jspm_packages/
+web_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage
+.nyc_output
+*.lcov
+
+# Cache directories
+.cache
+.parcel-cache
+.npm
+.eslintcache
+.stylelintcache
+
+# Build outputs
+dist
+build/
+out
+
+# OS / Editor files
+.DS_Store
+.vscode-test
+
+# Misc
+*.tgz
+.yarn-integrity
